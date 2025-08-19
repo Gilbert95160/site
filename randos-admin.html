@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Gestion Randonnées</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    h1 { text-align: center; color: #2c3e50; }
+    form { background: #fff; padding: 15px; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 5px; border-radius: 8px; border: 1px solid #ccc; }
+    button { margin-top: 15px; padding: 10px 15px; background: #3498db; color: white; border: none; border-radius: 8px; cursor: pointer; }
+    button:hover { background: #2980b9; }
+    .rando { background: #fff; padding: 15px; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 15px; }
+    .remarques { background: #ffecec; border-left: 5px solid #e74c3c; padding: 10px; margin-top: 10px; border-radius: 8px; }
+    .map-link { display: inline-block; margin-top: 10px; padding: 8px 12px; background: #27ae60; color: white; border-radius: 6px; text-decoration: none; }
+    .map-link:hover { background: #1e8449; }
+  </style>
+</head>
+<body>
+
+<h1>Gestion des Randonnées</h1>
+
+<form id="randoForm">
+  <label>Date :</label>
+  <input type="date" id="date" required>
+
+  <label>Nom de l'accompagnateur :</label>
+  <input type="text" id="accompagnateur" required>
+
+  <label>Titre :</label>
+  <input type="text" id="titre">
+
+  <label>Lieu de rendez-vous :</label>
+  <input type="text" id="lieu">
+
+  <label>Heure de départ :</label>
+  <input type="time" id="heure">
+
+  <label>Kilométrage (km) :</label>
+  <input type="number" id="km">
+
+  <label>Dénivelé (m) :</label>
+  <input type="number" id="denivele">
+
+  <label>Latitude :</label>
+  <input type="text" id="lat" placeholder="ex: 31.632">
+
+  <label>Longitude :</label>
+  <input type="text" id="lon" placeholder="ex: -7.989">
+
+  <label>Description :</label>
+  <textarea id="description" rows="3" placeholder="Ex: Randonnée vallonnée avec pause au moulin…"></textarea>
+
+  <label>Remarques importantes :</label>
+  <textarea id="remarques" rows="3" placeholder="Ex: ⚠️ Prendre ses bâtons"></textarea>
+
+  <button type="submit">Ajouter la randonnée</button>
+</form>
+
+<div id="listeRandos"></div>
+
+<script>
+  const form = document.getElementById("randoForm");
+  const liste = document.getElementById("listeRandos");
+  let editIndex = null; // si on modifie une rando existante
+
+  function chargerRandos() {
+    liste.innerHTML = "";
+    const randos = JSON.parse(localStorage.getItem("randos")) || [];
+    randos.forEach((r, i) => {
+      const div = document.createElement("div");
+      div.className = "rando";
+      div.innerHTML = `
+        <h2>${r.date || "📅 Date à préciser"} - ${r.titre || "Titre à préciser"}</h2>
+        <p>👤 <b>Animateur :</b> ${r.accompagnateur || "?"}</p>
+        <p>📍 <b>Lieu :</b> ${r.lieu || "-"}</p>
+        <p>🕘 <b>Départ :</b> ${r.heure || "-"}</p>
+        <p>🚶‍♂️ <b>Kilométrage :</b> ${r.km || "-"} km – ⛰️ ${r.denivele || "-"} m</p>
+        ${r.lat && r.lon ? `<a class="map-link" href="https://maps.google.com/?q=${r.lat},${r.lon}" target="_blank">🌍 Voir sur Google Maps</a>` : ""}
+        ${r.description ? `<p><b>Description :</b> ${r.description}</p>` : ""}
+        ${r.remarques ? `<div class="remarques"><b>⚠️ Remarques :</b><br>${r.remarques}</div>` : ""}
+        <button onclick="modifierRando(${i})">Modifier</button>
+        <button onclick="supprimerRando(${i})">Supprimer</button>
+      `;
+      liste.appendChild(div);
+    });
+  }
+
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    const rando = {
+      date: document.getElementById("date").value,
+      titre: document.getElementById("titre").value,
+      lieu: document.getElementById("lieu").value,
+      heure: document.getElementById("heure").value,
+      km: document.getElementById("km").value,
+      denivele: document.getElementById("denivele").value,
+      lat: document.getElementById("lat").value,
+      lon: document.getElementById("lon").value,
+      accompagnateur: document.getElementById("accompagnateur").value,
+      description: document.getElementById("description").value,
+      remarques: document.getElementById("remarques").value
+    };
+
+    const randos = JSON.parse(localStorage.getItem("randos")) || [];
+
+    if (editIndex !== null) {
+      randos[editIndex] = rando;
+      editIndex = null;
+    } else {
+      randos.push(rando);
+    }
+
+    localStorage.setItem("randos", JSON.stringify(randos));
+    form.reset();
+    chargerRandos();
+  });
+
+  function modifierRando(i) {
+    const randos = JSON.parse(localStorage.getItem("randos")) || [];
+    const r = randos[i];
+    document.getElementById("date").value = r.date || "";
+    document.getElementById("titre").value = r.titre || "";
+    document.getElementById("lieu").value = r.lieu || "";
+    document.getElementById("heure").value = r.heure || "";
+    document.getElementById("km").value = r.km || "";
+    document.getElementById("denivele").value = r.denivele || "";
+    document.getElementById("lat").value = r.lat || "";
+    document.getElementById("lon").value = r.lon || "";
+    document.getElementById("accompagnateur").value = r.accompagnateur || "";
+    document.getElementById("description").value = r.description || "";
+    document.getElementById("remarques").value = r.remarques || "";
+    editIndex = i;
+  }
+
+  function supprimerRando(i) {
+    const randos = JSON.parse(localStorage.getItem("randos")) || [];
+    randos.splice(i, 1);
+    localStorage.setItem("randos", JSON.stringify(randos));
+    chargerRandos();
+  }
+
+  chargerRandos();
+</script>
+
+</body>
+</html>

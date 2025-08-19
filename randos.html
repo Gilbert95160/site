@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Programme des Randonnées</title>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 10px; background: #f4f6f8; }
+    h1 { text-align: center; color: #2c3e50; margin-bottom: 20px; }
+
+    .rando {
+      background: #fff;
+      padding: 18px;
+      border-radius: 14px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      margin-bottom: 18px;
+    }
+
+    .date {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 8px;
+    }
+
+    .titre {
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #34495e;
+      margin-bottom: 10px;
+    }
+
+    .info { margin: 4px 0; font-size: 1em; color: #555; }
+
+    .description {
+      margin-top: 12px; padding: 10px;
+      background: #f0f6ff; border-left: 5px solid #2980b9;
+      border-radius: 8px; color: #2c3e50;
+    }
+
+    .remarques {
+      background: #ffecec; border-left: 6px solid #e74c3c;
+      padding: 12px; margin-top: 14px;
+      border-radius: 8px; font-weight: bold;
+      font-size: 1.05em; color: #7a1518;
+    }
+
+    .map-link {
+      display: inline-block; margin-top: 12px;
+      padding: 8px 12px; background: #27ae60;
+      color: white; border-radius: 6px;
+      text-decoration: none; font-size: 0.95em;
+    }
+    .map-link:hover { background: #1e8449; }
+
+    @media (max-width: 600px) {
+      .date { font-size: 1.4em; }
+      .titre { font-size: 1.2em; }
+      .info { font-size: 1.05em; }
+      .remarques { font-size: 1.1em; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>Programme des Randonnées</h1>
+<div id="listeRandos"></div>
+
+<script>
+  const liste = document.getElementById("listeRandos");
+
+  function formatDate(isoDate) {
+    if (!isoDate) return "";
+    const d = new Date(isoDate + "T12:00:00");
+    return d.toLocaleDateString("fr-FR", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  }
+
+  function chargerRandos() {
+    liste.innerHTML = "";
+    const randos = JSON.parse(localStorage.getItem("randos")) || [];
+    randos.forEach((r) => {
+      const div = document.createElement("div");
+      div.className = "rando";
+      div.innerHTML = `
+        <div class="date">📅 ${r.date ? formatDate(r.date) : "Date à préciser"}</div>
+        <div class="titre">${r.titre || "Titre à préciser"}</div>
+        <p class="info">👤 <b>Animateur :</b> ${r.accompagnateur || "?"}</p>
+        <p class="info">📍 <b>Lieu :</b> ${r.lieu || "-"}</p>
+        <p class="info">🕘 <b>Départ :</b> ${r.heure || "-"}</p>
+        <p class="info">🚶 <b>Kilométrage :</b> ${r.km || "-"} km – ⛰️ ${r.denivele || "-"} m</p>
+        ${r.lat && r.lon ? `<a class="map-link" href="https://maps.google.com/?q=${r.lat},${r.lon}" target="_blank">🌍 Voir sur Google Maps</a>` : ""}
+        ${r.description ? `<div class="description">ℹ️ ${r.description}</div>` : ""}
+        ${r.remarques ? `<div class="remarques">⚠️ ${r.remarques}</div>` : ""}
+      `;
+      liste.appendChild(div);
+    });
+  }
+
+  chargerRandos();
+</script>
+
+</body>
+</html>
