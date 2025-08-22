@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2025-09-15",
+    "titre": "Vallée de Chevreuse",
+    "lieu": "Gare de Chevreuse",
+    "heure": "08:30",
+    "km": "12",
+    "denivele": "350",
+    "accompagnateur": "Jean Dupont",
+    "lat": "48.706",
+    "lon": "2.050",
+    "description": "Balade dans la vallée avec passage en forêt.",
+    "remarques": "⚠️ N’oubliez pas vos bâtons"
+  },
+  {
+    "date": "2025-09-22",
+    "titre": "Forêt de Rambouillet",
+    "lieu": "Parking Étangs de Hollande",
+    "heure": "09:00",
+    "km": "15",
+    "denivele": "280",
+    "accompagnateur": "Marie Martin",
+    "lat": "48.650",
+    "lon": "1.850",
+    "description": "",
+    "remarques": ""
+  }
+]
