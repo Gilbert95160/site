@@ -37,5 +37,70 @@
     "lon": "2.024334",
     "description": "",
     "remarques": "Prévoir le casse-croute ainsi que les bâtons. \nPrendre assez d'eau (2l)"
+  },
+  {
+    "date": "2025-09-21",
+    "titre": "A l'étude",
+    "lieu": "",
+    "heure": "09:00",
+    "km": "",
+    "denivele": "",
+    "accompagnateur": "Yan",
+    "lat": "",
+    "lon": "",
+    "description": "",
+    "remarques": ""
+  },
+  {
+    "date": "2025-09-28",
+    "titre": "Randonnée du Val de Viosne",
+    "lieu": "Départ du Château de Grouchy, Osny 95",
+    "heure": "09:00",
+    "km": "",
+    "denivele": "",
+    "accompagnateur": "Le club Rando Découverte Amitié d'Osny",
+    "lat": "49.064100",
+    "lon": "2.06496",
+    "description": "Une collation est prévue au départ et à l'arrivée.",
+    "remarques": "Participation 5 €"
+  },
+  {
+    "date": "2025-10-05",
+    "titre": "De Précy-sur-Oise au bois Saint-Michel",
+    "lieu": "Parking du bord de l'Oise, Allée des Sycomores à Précy-sur-Oise",
+    "heure": "09:00",
+    "km": "13",
+    "denivele": "",
+    "accompagnateur": "Monique",
+    "lat": "49.202566",
+    "lon": "2.373499",
+    "description": "",
+    "remarques": ""
+  },
+  {
+    "date": "2025-10-12",
+    "titre": "De Chars à Brignancourt",
+    "lieu": "Parking de la gare de Chars",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "",
+    "accompagnateur": "Eric",
+    "lat": "49.16442",
+    "lon": "1.93652 ",
+    "description": "Nous emprunterons le GR®11, et PR® du Vexin, à travers bois et champs, le long de la Viosne et du moulin de Noisemont.",
+    "remarques": ""
+  },
+  {
+    "date": "2025-10-19",
+    "titre": "Autour de Louveciennes",
+    "lieu": "Parking de la gare de Bougival, 1 Av. de Louveciennes, 78170 La Celle-Saint-Cloud",
+    "heure": "09:00",
+    "km": "13",
+    "denivele": "260",
+    "accompagnateur": "Gilbert",
+    "lat": "48.854336",
+    "lon": "2.131797",
+    "description": "",
+    "remarques": "Prévoir les bâtons"
   }
 ]
