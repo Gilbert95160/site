@@ -2,7 +2,7 @@
   {
     "date": "2025-08-31",
     "titre": "Chaumontel",
-    "lieu": " Parking de Chaumontel 95270, chemin de Coye-la-Forêt, (GPS 49.127268, 2.430473)",
+    "lieu": " Parking de Chaumontel 95270, chemin de Coye-la-Forêt",
     "heure": "09:00",
     "km": "13",
     "denivele": "",
@@ -15,7 +15,7 @@
   {
     "date": "2025-09-07",
     "titre": "Château de la Chase",
-    "lieu": "Parking du Bouquet de la Vallée à Montlignon (GPS 49.023536, 2.2963477)",
+    "lieu": "Parking du Bouquet de la Vallée à Montlignon",
     "heure": "09:00",
     "km": "10",
     "denivele": "130",
@@ -27,7 +27,7 @@
   },
   {
     "date": "2025-09-14",
-    "titre": "Randonnée à la journée en forêt de l'Hautil (GPS 49.012266, 2.024334)",
+    "titre": "Randonnée à la journée en forêt de l'Hautil",
     "lieu": "Parking du Gymnase des Merisiers, rue Rossini à Jouy-le-Moutier",
     "heure": "",
     "km": "22",
@@ -36,7 +36,7 @@
     "lat": "49.012266",
     "lon": "2.024334",
     "description": "",
-    "remarques": "Prévoir le casse-croute ainsi que les bâtons. \nPrendre assez d'eau (2l)"
+    "remarques": "Prévoir le casse-croute ainsi que les bâtons. \nPrendre assez d'eau (2 l)"
   },
   {
     "date": "2025-09-21",
@@ -54,7 +54,7 @@
   {
     "date": "2025-09-28",
     "titre": "Randonnée du Val de Viosne",
-    "lieu": "Départ du Château de Grouchy, Osny 95 (GPS 49.064100, 2.06496)",
+    "lieu": "Départ du Château de Grouchy, Osny 95",
     "heure": "09:00",
     "km": "16",
     "denivele": "",
@@ -67,7 +67,7 @@
   {
     "date": "2025-10-05",
     "titre": "De Précy-sur-Oise au bois Saint-Michel",
-    "lieu": "Parking du bord de l'Oise, Allée des Sycomores à Précy-sur-Oise (GPS 49.202566, 2.373499)",
+    "lieu": "Parking du bord de l'Oise, Allée des Sycomores à Précy-sur-Oise",
     "heure": "09:00",
     "km": "13",
     "denivele": "",
@@ -80,7 +80,7 @@
   {
     "date": "2025-10-12",
     "titre": "De Chars à Brignancourt",
-    "lieu": "Parking de la gare de Chars (GPS : 49.16442,1.93652)",
+    "lieu": "Parking de la gare de Chars",
     "heure": "09:00",
     "km": "12",
     "denivele": "",
@@ -93,7 +93,7 @@
   {
     "date": "2025-10-19",
     "titre": "Autour de Louveciennes",
-    "lieu": "Parking de la gare de Bougival, 1 Av. de Louveciennes, 78170 La Celle-Saint-Cloud (GPS : 48.854336, 2.131797)",
+    "lieu": "Parking de la gare de Bougival, 1 Av. de Louveciennes, 78170 La Celle-Saint-Cloud",
     "heure": "09:00",
     "km": "13",
     "denivele": "260",
@@ -132,7 +132,7 @@
   {
     "date": "2025-11-09",
     "titre": "Mours, Presles et forêt de Carnelle",
-    "lieu": "Parking rue des Nointel à Mours 95260 (près de la Mairie) GPS 49.133140, 2.270855",
+    "lieu": "Parking rue des Nointel à Mours 95260 (près de la Mairie)",
     "heure": "09:00",
     "km": "13",
     "denivele": "",
@@ -145,7 +145,7 @@
   {
     "date": "2025-11-16",
     "titre": "Autours de Maison-Lafitte",
-    "lieu": "Parking de l’Etoile de Petrons à Saint-Germaine-Laye (GPS 48.96117, 2.12763)",
+    "lieu": "Parking de l’Etoile de Petrons à Saint-Germaine-Laye",
     "heure": "09:00",
     "km": "13",
     "denivele": "40",
@@ -158,7 +158,7 @@
   {
     "date": "2025-11-23",
     "titre": "De Pontoise à Valhermeil",
-    "lieu": "Parking rue des Etannets (le long du parc des Lavandières) à Pontoise 95300 (GPS 49.051594, 2.089153)",
+    "lieu": "Parking rue des Etannets (le long du parc des Lavandières) à Pontoise 95300",
     "heure": "09:00",
     "km": "14",
     "denivele": "",
@@ -184,7 +184,7 @@
   {
     "date": "2025-12-07",
     "titre": "Cormeilles et points de vue sur la Seine",
-    "lieu": "Gare de Cormeilles, 1 place Pierre Semard 95240 Cormeilles-en-Parisis (GPS : 48.969009, 2.193761)",
+    "lieu": "Gare de Cormeilles, 1 place Pierre Semard 95240 Cormeilles-en-Parisis",
     "heure": "09:00",
     "km": "12",
     "denivele": "",
@@ -197,7 +197,7 @@
   {
     "date": "2025-12-14",
     "titre": "Les petites rivières du Vésinet",
-    "lieu": "Parking du stade, 3 boulevard de la Libération au Pecq 78230 (GPS 48.892013, 2.109202)",
+    "lieu": "Parking du stade, 3 boulevard de la Libération au Pecq 78230",
     "heure": "08:45",
     "km": "14",
     "denivele": "30",
