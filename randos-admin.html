@@ -91,8 +91,12 @@
     randos.forEach((r, i) => {
       const div = document.createElement("div");
       div.className = "rando";
-      div.innerHTML = `<b>${r.date || "?"}</b> – ${r.titre || "(sans titre)"} 
-        <button onclick="supprimerRando(${i})" style="margin-left:10px; background:#e74c3c;">Supprimer</button>`;
+      div.innerHTML = `
+        <b>${r.date || "?"}</b> – ${r.titre || "(sans titre)"}<br>
+        📍 ${r.lieu || "-"} ${r.lat && r.lon ? `(${r.lat}, ${r.lon})` : ""} <br>
+        👤 ${r.accompagnateur || "?"}
+        <button onclick="supprimerRando(${i})" style="margin-left:10px; background:#e74c3c; color:white; border:none; border-radius:4px;">Supprimer</button>
+      `;
       liste.appendChild(div);
     });
   }

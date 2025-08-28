@@ -79,6 +79,7 @@
           <div class="titre">${r.titre || "Titre à préciser"}</div>
           <p class="info">👤 <b>Animateur :</b> ${r.accompagnateur || "?"}</p>
           <p class="info">📍 <b>Lieu :</b> ${r.lieu || "-"}</p>
+          ${r.lat && r.lon ? `<p class="info">🧭 <b>Coordonnées :</b> ${r.lat}, ${r.lon}</p>` : ""}
           <p class="info">🕘 <b>Départ :</b> ${r.heure || "-"}</p>
           <p class="info">🚶 <b>Kilométrage :</b> ${r.km || "-"} km – ⛰️ ${r.denivele || "-"} m</p>
           ${r.lat && r.lon ? `<a class="map-link" href="https://maps.google.com/?q=${r.lat},${r.lon}" target="_blank">🌍 Voir sur Google Maps</a>` : ""}
