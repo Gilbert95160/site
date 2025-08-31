@@ -1,18 +1,5 @@
 [
   {
-    "date": "2025-08-31",
-    "titre": "Chaumontel",
-    "lieu": " Parking de Chaumontel 95270, chemin de Coye-la-Forêt",
-    "heure": "09:00",
-    "km": "13",
-    "denivele": "",
-    "accompagnateur": "Monique",
-    "lat": "49.127268",
-    "lon": "2.430473",
-    "description": "Une boucle dans la forêt de Coye",
-    "remarques": ""
-  },
-  {
     "date": "2025-09-07",
     "titre": "Château de la Chase",
     "lieu": "Parking du Bouquet de la Vallée à Montlignon",
@@ -29,7 +16,7 @@
     "date": "2025-09-14",
     "titre": "Randonnée à la journée en forêt de l'Hautil",
     "lieu": "Parking du Gymnase des Merisiers, rue Rossini à Jouy-le-Moutier",
-    "heure": "",
+    "heure": "09:00",
     "km": "22",
     "denivele": "410",
     "accompagnateur": "Gilbert",
@@ -55,7 +42,7 @@
     "date": "2025-09-28",
     "titre": "Randonnée du Val de Viosne",
     "lieu": "Départ du Château de Grouchy, Osny 95",
-    "heure": "09:00",
+    "heure": "08:45",
     "km": "16",
     "denivele": "",
     "accompagnateur": "Le club Rando Découverte Amitié d'Osny",
