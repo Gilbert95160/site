@@ -1,18 +1,5 @@
 [
   {
-    "date": "2025-10-12",
-    "titre": "De Chars à Brignancourt",
-    "lieu": "Parking de la gare de Chars",
-    "heure": "09:00",
-    "km": "12",
-    "denivele": "",
-    "accompagnateur": "Eric",
-    "lat": "49.16442",
-    "lon": "1.93652 ",
-    "description": "Nous emprunterons le GR®11, et PR® du Vexin, à travers bois et champs, le long de la Viosne et du moulin de Noisemont.",
-    "remarques": ""
-  },
-  {
     "date": "2025-10-19",
     "titre": "Autour de Louveciennes",
     "lieu": "Parking de la gare de Bougival, 1 Av. de Louveciennes, 78170 La Celle-Saint-Cloud",
@@ -25,18 +12,18 @@
     "description": "",
     "remarques": "Prévoir les bâtons"
   },
-  {
+ {
     "date": "2025-10-26",
-    "titre": "A l'étude",
-    "lieu": "",
-    "heure": "",
-    "km": "",
-    "denivele": "",
+    "titre": "La Beaumontoise",
+    "lieu": "Stade Gilles de Genève, avenue du Président Wilson Beaumont-sur-Oise",
+    "heure": "08:45",
+    "km": "16",
+    "denivele": "360",
     "accompagnateur": "Yan",
-    "lat": "",
-    "lon": "",
-    "description": "",
-    "remarques": ""
+    "lat": "49.137218",
+    "lon": "2.286998",
+    "description": "Nostalgie de l\"accompagnateur",
+    "remarques": "Prendre les bâtons"
   },
   {
     "date": "2025-11-02",
