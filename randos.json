@@ -1,18 +1,5 @@
 [
   {
-    "date": "2025-11-23",
-    "titre": "De Pontoise à Valhermeil",
-    "lieu": "Parking des Lavandières (près de l'école des Lavandières) rue de Rouen à Pontoise 95300",
-    "heure": "09:00",
-    "km": "13",
-    "denivele": "",
-    "accompagnateur": "Monique Hardouin",
-    "lat": "49.050171",
-    "lon": "2.089431",
-    "description": "",
-    "remarques": ""
-  },
-  {
     "date": "2025-11-30",
     "titre": "Autour des Bois de la Coharde et de la Basse Pommeraie",
     "lieu": "Parking du Canal, Chemin des Obstinés, 60500 Chantilly",
@@ -62,6 +49,32 @@
     "lat": "",
     "lon": "",
     "description": "",
+    "remarques": ""
+  },
+  {
+    "date": "2026-01-11",
+    "titre": "Boucle Passerelle de l’Axe Majeur",
+    "lieu": "Parking P1, Île de Loisirs de Cergy-Pontoise Rue du Chemin Neuf, 95000 Neuville-sur-Oise",
+    "heure": "09:00",
+    "km": "12.9",
+    "denivele": "110",
+    "accompagnateur": "Claire",
+    "lat": "49.021635",
+    "lon": "2.052568",
+    "description": "🍰 Ce sera l’occasion de déguster la galette offerte par le club ! Pensez à vous munir d'un verre",
+    "remarques": "Merci de vous inscrire avant le 20 décembre par mail ou WhatsApp : gilbert.aurejac@orange.fr"
+  },
+  {
+    "date": "2026-01-18",
+    "titre": "Boucle en forêt de Montmorency",
+    "lieu": "Parking du Trou du Tonnerre, route du Faite à Domont",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "121",
+    "accompagnateur": "Eric",
+    "lat": "49.026979",
+    "lon": "2.308698",
+    "description": "Nous suivrons la fameuse foutue route jusqu'au carrefour de la Croix Rouge avant de rejoindre la route tournante du bois du Roi, puis à proximité du château de la chasse pour finir la randonnée sur une note Royale.",
     "remarques": ""
   }
 ]
