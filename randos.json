@@ -76,5 +76,18 @@
     "lon": "2.389241",
     "description": "Balade dans le parc de La Courneuve pour avoir les pieds propres",
     "remarques": ""
+  },
+  {
+    "date": "2026-02-01",
+    "titre": "Louveciennes et ses alentours",
+    "lieu": "Parking de la gare de Bougival, 1 Av. de Louveciennes, 78170 La Celle-Saint-Cloud",
+    "heure": "09:00",
+    "km": "12.8",
+    "denivele": "240",
+    "accompagnateur": "Gilbert",
+    "lat": "48.854336",
+    "lon": "2.131797",
+    "description": "Le château du Pont, date du Moyen-Âge. Construit au 14e siècle, il est acquis par Claude Nau, un seigneur et secrétaire de la reine d'Écosse. Il ne changea jamais de famille propriétaire : sa descendance occupe encore le château. ",
+    "remarques": "Pensez vos bâtons de marche."
   }
 ]
