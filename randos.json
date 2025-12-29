@@ -38,6 +38,19 @@
     "description": "Balade dans le parc de La Courneuve pour avoir les pieds propres",
     "remarques": ""
   },
+   {
+    "date": "2026-02-01",
+    "titre": "De Bastille à République via la coulée verte René Dumont",
+    "lieu": "Station Bastille sortie N° 4 rue de Lyon/Port de l'Arsenal",
+    "heure": "09:00",
+    "km": "12.5",
+    "denivele": "70",
+    "accompagnateur": "Gilbert",
+    "lat": "",
+    "lon": "",
+    "description": "",
+    "remarques": "Possibilité ensuite de déjeuner dans un Bouillon, mais il faudra réserver avant"
+  },
   {
     "date": "2026-02-08",
     "titre": "Louveciennes et ses alentours",
