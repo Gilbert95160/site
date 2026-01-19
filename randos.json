@@ -43,12 +43,51 @@
     "titre": "Boucle de la Malmaison et des Gallicots",
     "lieu": "Parking 34, Bd Bellerive, 92500 Rueil-Malmaison",
     "heure": "09:00",
-    "km": "13",
+    "km": "10",
     "denivele": "",
     "accompagnateur": "Claire",
     "lat": "48.880996",
     "lon": "2.161163",
     "description": "Parcours à moitié urbain et à moitié bois, vergers, bord de Seine et parc.",
+    "remarques": ""
+  },
+  {
+    "date": "2026-02-22",
+    "titre": "Les quatre villages",
+    "lieu": "Parking de la mairie d'Hédouville, Grande Rue (95690)",
+    "heure": "09:00",
+    "km": "13",
+    "denivele": "210",
+    "accompagnateur": "Patrice",
+    "lat": "49.154480",
+    "lon": "2.171416",
+    "description": "Des villages riches en petit patrimoine rural et les ruines de Grainval, autrefois dépendance de l'abbaye du Bec-Hellouin. ",
+    "remarques": ""
+  },
+  {
+    "date": "2026-03-01",
+    "titre": "Mémorial Lafayette",
+    "lieu": "Parking de l’étang, chemin de Versailles Rueil Malmaison ",
+    "heure": "09:00",
+    "km": "13",
+    "denivele": "190",
+    "accompagnateur": "Gilbert",
+    "lat": "48.856050",
+    "lon": "2.163639",
+    "description": "",
+    "remarques": ""
+  },
+  {
+    "date": "2026-03-08",
+    "titre": "Circuit autour de Villiers Adam",
+    "lieu": "Parking de la Mairie de Villiers-Adam (Rue du pot d'Étain)",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "134",
+    "accompagnateur": "Eric",
+    "lat": "49.065578",
+    "lon": "2.234158",
+    "description": "Nos chemins nous mènerons aux alentours de Frépillon, Béthemont-la-Forêt et Chauvry pour profiter pleinement de ces paysages naturels.",
     "remarques": ""
   }
 ]
