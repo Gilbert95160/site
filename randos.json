@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-01-18",
-    "titre": "Boucle en forêt de Montmorency",
-    "lieu": "Parking du Trou du Tonnerre, route du Faite à Domont",
-    "heure": "09:00",
-    "km": "12",
-    "denivele": "121",
-    "accompagnateur": "Eric",
-    "lat": "49.026979",
-    "lon": "2.308698",
-    "description": "Nous suivrons la fameuse foutue route jusqu'au carrefour de la Croix Rouge avant de rejoindre la route tournante du bois du Roi, puis à proximité du château de la chasse pour finir la randonnée sur une note Royale.",
-    "remarques": ""
-  },
-  {
     "date": "2026-01-25",
     "titre": "Étang des Brouillards",
     "lieu": "Parking Montjoie à la Courneuve",
@@ -50,5 +37,18 @@
     "lon": "2.131797",
     "description": "Le château du Pont, date du Moyen-Âge. Construit au 14e siècle, il est acquis par Claude Nau, un seigneur et secrétaire de la reine d'Écosse. Il ne changea jamais de famille propriétaire : sa descendance occupe encore le château. ",
     "remarques": "Pensez vos bâtons de marche."
+  },
+  {
+    "date": "2026-02-15",
+    "titre": "Boucle de la Malmaison et des Gallicots",
+    "lieu": "Parking 34, Bd Bellerive, 92500 Rueil-Malmaison",
+    "heure": "09:00",
+    "km": "13",
+    "denivele": "",
+    "accompagnateur": "Claire",
+    "lat": "48.880996",
+    "lon": "2.161163",
+    "description": "Parcours à moitié urbain et à moitié bois, vergers, bord de Seine et parc.",
+    "remarques": ""
   }
 ]
