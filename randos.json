@@ -1,17 +1,4 @@
 [
-   {
-    "date": "2026-02-01",
-    "titre": "Autour du Château de Chantilly",
-    "lieu": "Parking P2 du château de Chantilly ",
-    "heure": "09:00",
-    "km": "12.8",
-    "denivele": "30",
-    "accompagnateur": "Gilbert",
-    "lat": "49.19076",
-    "lon": "2.48363",
-    "description": "",
-    "remarques": "⚠️🚉 Travaux SNCF : randonnée modifiée → nouvelle randonnée à la place "
-  },
   {
     "date": "2026-02-08",
     "titre": "Louveciennes et ses alentours",
@@ -75,6 +62,19 @@
     "lat": "49.065578",
     "lon": "2.234158",
     "description": "Nos chemins nous mènerons aux alentours de Frépillon, Béthemont-la-Forêt et Chauvry pour profiter pleinement de ces paysages naturels.",
+    "remarques": ""
+  },
+  {
+    "date": "2026-03-15",
+    "titre": "🍃De Conflans à la Frette par les coteaux d'Herblay",
+    "lieu": "Parking du Collège des Hautes Rayes, Place Bérégovoy, Conflans-Sainte-Honorine",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "118",
+    "accompagnateur": "Claire Lopez",
+    "lat": "48.998013",
+    "lon": "2.116959",
+    "description": "Entre coteaux et bords de Seine, une boucle pleine de charme",
     "remarques": ""
   }
 ]
