@@ -1,24 +1,11 @@
 [
   {
-    "date": "2026-02-08",
-    "titre": "Louveciennes et ses alentours",
-    "lieu": "Parking de la gare de Bougival, 1 Av. de Louveciennes, 78170 La Celle-Saint-Cloud",
-    "heure": "09:00",
-    "km": "12.8",
-    "denivele": "240",
-    "accompagnateur": "Gilbert",
-    "lat": "48.854336",
-    "lon": "2.131797",
-    "description": "Le château du Pont, date du Moyen-Âge. Construit au 14e siècle, il est acquis par Claude Nau, un seigneur et secrétaire de la reine d'Écosse. Il ne changea jamais de famille propriétaire : sa descendance occupe encore le château. ",
-    "remarques": "Pensez vos bâtons de marche."
-  },
-  {
     "date": "2026-02-15",
     "titre": "Boucle de la Malmaison et des Gallicots",
     "lieu": "Parking 34, Bd Bellerive, 92500 Rueil-Malmaison",
     "heure": "09:00",
     "km": "10",
-    "denivele": "",
+    "denivele": "96",
     "accompagnateur": "Claire",
     "lat": "48.880996",
     "lon": "2.161163",
