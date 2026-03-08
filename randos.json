@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-03-08",
-    "titre": "Circuit autour de Villiers Adam",
-    "lieu": "Parking de la Mairie de Villiers-Adam (Rue du pot d'Étain)",
-    "heure": "09:00",
-    "km": "12",
-    "denivele": "134",
-    "accompagnateur": "Eric",
-    "lat": "49.065578",
-    "lon": "2.234158",
-    "description": "Nos chemins nous mènerons aux alentours de Frépillon, Béthemont-la-Forêt et Chauvry pour profiter pleinement de ces paysages naturels.",
-    "remarques": ""
-  },
-  {
     "date": "2026-03-15",
     "titre": "🍃De Conflans à la Frette par les coteaux d'Herblay",
     "lieu": "Parking du Collège des Hautes Rayes, Place Bérégovoy, Conflans-Sainte-Honorine",
@@ -50,5 +37,57 @@
     "lon": "2.248690",
     "description": "",
     "remarques": "Pensez vos bâtons de marche"
+  },
+  {
+    "date": "2026-04-05",
+    "titre": "Autour de Jouy-le-Moutier",
+    "lieu": "Parking de la mairie, 56 Grande Rue à Jouy-le-Moutier",
+    "heure": "09:00",
+    "km": "13",
+    "denivele": "228",
+    "accompagnateur": "Patrice",
+    "lat": "49.01604",
+    "lon": "2.04768",
+    "description": "",
+    "remarques": ""
+  },
+  {
+    "date": "2026-04-12",
+    "titre": "La Beaumontoise",
+    "lieu": "Parking Stade Gilles de Genève, avenue du Président Wilson Beaumont-sur-Oise",
+    "heure": "",
+    "km": "16",
+    "denivele": "360",
+    "accompagnateur": "Club UMOB Randonnées",
+    "lat": "49.137218",
+    "lon": "2.286998",
+    "description": "",
+    "remarques": "Participation 5 €, prévoir les bâtons"
+  },
+  {
+    "date": "2026-04-19",
+    "titre": "Allée couverte",
+    "lieu": "Parking de la Pierre Turquaise, Rte de la Pierre Turquaise, 95270 Saint-Martin-du-Tertre",
+    "heure": "09:00",
+    "km": "13",
+    "denivele": "210",
+    "accompagnateur": "Gilbert",
+    "lat": "49.106593",
+    "lon": "2.313612",
+    "description": "",
+    "remarques": "Pensez vos bâtons de marche."
+  },
+  {
+    "date": "2026-04-26",
+    "titre": "Autour d'Ennery",
+    "lieu": "Parking Place du Rendu à Ennery",
+    "heure": "09:00",
+    "km": "14",
+    "denivele": "158",
+    "accompagnateur": "Patrice",
+    "lat": "49.07629",
+    "lon": "2.10564",
+    "description": "",
+    "remarques": ""
   }
 ]
