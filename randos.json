@@ -50,5 +50,18 @@
     "lon": "2.10564",
     "description": "",
     "remarques": ""
+  },
+  {
+    "date": "2026-05-03",
+    "titre": "En forêt de fausses reposes",
+    "lieu": "Parking des deux étangs, 55, rue de Versailles, 92410 Ville-d'Avray",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "160",
+    "accompagnateur": "Gilbert",
+    "lat": "48.869542",
+    "lon": "2.152072",
+    "description": "",
+    "remarques": ""
   }
 ]
