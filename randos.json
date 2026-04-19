@@ -24,5 +24,57 @@
     "lon": "2.152072",
     "description": "",
     "remarques": ""
+  },
+  {
+    "date": "2026-05-10",
+    "titre": "🌳 En forêt de Saint-Germain-en-Laye",
+    "lieu": "Parking de la Croix de Noailles",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "28",
+    "accompagnateur": "Claire",
+    "lat": "48.939771",
+    "lon": "2.096851",
+    "description": "✨ Une balade entre nature généreuse et héritage royal",
+    "remarques": ""
+  },
+  {
+    "date": "2026-05-24",
+    "titre": "🌲 Fosses - Château d'Hérivaux",
+    "lieu": "Parking à l'intersection avenue de la Haute Grève et avenue de Lizt 95470 Fosses",
+    "heure": "09:00",
+    "km": "12.6",
+    "denivele": "238",
+    "accompagnateur": "Gilbert",
+    "lat": "49.099602,",
+    "lon": "2.507368",
+    "description": "✨ Parcours autour du Château d'Hérivaux situé près de Luzarches",
+    "remarques": ""
+  },
+  {
+    "date": "2026-05-31",
+    "titre": "🌲 Balade en forêt de l'Isle-Adam",
+    "lieu": "Parking Bois Carreau : D64, Nerville-la-Forêt",
+    "heure": "09:00",
+    "km": "14",
+    "denivele": "160",
+    "accompagnateur": "Gilbert",
+    "lat": "49.083838",
+    "lon": "2.286866",
+    "description": "Une belle sortie “grand bol d’air” avec une distance sportive !",
+    "remarques": ""
+  },
+  {
+    "date": "2026-06-07",
+    "titre": "La Marguerite Champenoise",
+    "lieu": "CCS – Parc municipal de Champagne-sur-Oise, 12 rue de Welwyn",
+    "heure": "08:45",
+    "km": "16",
+    "denivele": "",
+    "accompagnateur": "",
+    "lat": "49.137377",
+    "lon": "2.23639",
+    "description": "Une randonnée modulable en pleine nature, à composer selon vos envies !",
+    "remarques": "Participation : 7 €"
   }
 ]
