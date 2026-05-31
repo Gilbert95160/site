@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-05-31",
-    "titre": "🌲 Fosses - Château d'Hérivaux",
-    "lieu": "Parking à l'intersection avenue de la Haute Grève et avenue de Lizt 95470 Fosses",
-    "heure": "08:30",
-    "km": "12.6",
-    "denivele": "238",
-    "accompagnateur": "Gilbert",
-    "lat": "49.099602",
-    "lon": "2.507368",
-    "description": "✨ Parcours autour du Château d'Hérivaux situé près de Luzarches",
-    "remarques": ""
-  },
-  {
     "date": "2026-06-07",
     "titre": "La Marguerite Champenoise",
     "lieu": "CCS – Parc municipal de Champagne-sur-Oise, 12 rue de Welwyn",
@@ -24,5 +11,44 @@
     "lon": "2.23639",
     "description": "Une randonnée modulable en pleine nature, à composer selon vos envies !",
     "remarques": "Participation : 7 €"
+  },
+  {
+    "date": "2026-06-14",
+    "titre": "🌲 Les buttes de Rosne",
+    "lieu": "📍parking RandoVexin, rue des Buttes 95640 Le Heaulme",
+    "heure": "08:30",
+    "km": "12",
+    "denivele": "307",
+    "accompagnateur": "Patrice",
+    "lat": "49.16881",
+    "lon": "2.00062",
+    "description": "Une randonnée qui nous fera passer par le point culminant du Vexin",
+    "remarques": ""
+  },
+  {
+    "date": "2026-07-12",
+    "titre": "🌲 Courdimanche et le bois de l'Hautil",
+    "lieu": "📍 Parking 10, rue de la Grange Neuve à 95800 Courdimanche ",
+    "heure": "08:30",
+    "km": "12.5",
+    "denivele": "190",
+    "accompagnateur": "🚶‍♀️Patrice",
+    "lat": "49.036231",
+    "lon": "2.001137",
+    "description": "",
+    "remarques": ""
+  },
+  {
+    "date": "2026-08-30",
+    "titre": "🌲 L'isle-Adam",
+    "lieu": "📍 Parking Place du Patis, 95290 L'Isle-Adam",
+    "heure": "09:00",
+    "km": "14",
+    "denivele": "120",
+    "accompagnateur": "🚶‍♀️ Gilbert",
+    "lat": "49.110941",
+    "lon": "2.212618",
+    "description": "",
+    "remarques": ""
   }
 ]
