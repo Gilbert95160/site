@@ -1,31 +1,4 @@
 [
-  {
-    "date": "2026-06-28",
-    "titre": "🌲Boucle au départ de Jambville",
-    "lieu": "📍Parking du château",
-    "heure": "09:00",
-    "km": "12",
-    "denivele": "203",
-    "accompagnateur": "Eric",
-    "lat": "49.046516",
-    "lon": "1.8523",
-    "description": "Une boucle au départ du centre des Scouts : Scout un jour, scout toujours.",
-    "remarques": " Bâtons conseillés"
-  },
-  {
-    "date": "2026-07-05",
-    "titre": "🌲 Boucle au départ d'Hédouville",
-    "lieu": "📍Parking Rue de l'Abreuvoir",
-    "heure": "09:00",
-    "km": "12",
-    "denivele": "151",
-    "accompagnateur": "Eric",
-    "lat": "49.151549",
-    "lon": "2.166321",
-    "description": "Une boucle qui fait passer par Hédouville, Hodan, Messelan et Frouville",
-    "remarques": ""
-  },
-  {
     "date": "2026-07-12",
     "titre": "🌲 Courdimanche et le bois de l'Hautil",
     "lieu": "📍 Parking 10, rue de la Grange Neuve à 95800 Courdimanche ",
