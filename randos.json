@@ -50,5 +50,31 @@
     "lon": "2.061440",
     "description": "",
     "remarques": "Participation : 5 €"
+  },
+    {
+    "date": "2026-10-04",
+    "titre": "🌲 Courdimanche et le bois de l'Hautil",
+    "lieu": "Parling 10, rue de la Grange Neuve à 95800 Courdimanche",
+    "heure": "09:00",
+    "km": "12.5",
+    "denivele": "190",
+    "accompagnateur": "Patrice",
+    "lat": "49.036231",
+    "lon": "2.001137",
+    "description": "",
+    "remarques": ""
+  },
+  {
+    "date": "2026-10-18",
+    "titre": "🌿 La Beaumontoise",
+    "lieu": "Stade Gilles de Genève, avenue du Président Wilson Beaumont-sir-Oise",
+    "heure": "08:45",
+    "km": "16",
+    "denivele": "360",
+    "accompagnateur": "Yan",
+    "lat": "49.137218",
+    "lon": "2.28699",
+    "description": "",
+    "remarques": ""
   }
 ]
