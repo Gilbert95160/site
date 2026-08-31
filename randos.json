@@ -1,18 +1,5 @@
 [
     {
-    "date": "2026-08-30",
-    "titre": "🌲 L'isle-Adam",
-    "lieu": "📍 Parking Place du Patis,95290 L'Isle-Adam",
-    "heure": "09:00",
-    "km": "14",
-    "denivele": "120",
-    "accompagnateur": "🚶‍♀️ Gilbert",
-    "lat": "49.110941",
-    "lon": "2.212618",
-    "description": "",
-    "remarques": ""
-  },
-    {
     "date": "2026-09-06",
     "titre": "🌳 🏘️ La boucle des trois villages : Livilliers, Épiais Rhus et Génicourt",
     "lieu": "Parking niveau de l'église et de la mairie, 13, ue de Paris, Livilliers",
@@ -25,7 +12,7 @@
     "description": "",
     "remarques": "🚗 Accès : Depuis Pontoise, prendre la D915 puis la D79 en direction de Livilliers"
   },
-  {
+    {
     "date": "2026-09-20",
     "titre": "🌲 Randonnée en forêt de l'Hautil",
     "lieu": "Parking du Gymnase des Merisiers , rue Rossini à Jouy-le-Moutier devant le Gymnase",
@@ -37,6 +24,19 @@
     "lon": "2.024334",
     "description": "",
     "remarques": "Bâtons conseillés"
+  },
+    {
+    "date": "2026-09-13",
+    "titre": "🌿  Les alentours d'Ecouen",
+    "lieu": "Parking 2, Route de la Tête Richard",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "150",
+    "accompagnateur": "Yan",
+    "lat": "49.018447",
+    "lon": "2.350096",
+    "description": "",
+    "remarques": ""
   },
     {
     "date": "2026-09-27",
