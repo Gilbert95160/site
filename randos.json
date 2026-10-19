@@ -24,5 +24,31 @@
     "lon": "2.001137",
     "description": "",
     "remarques": ""
+  },
+    {
+    "date": "2026-11-15",
+    "titre": "🌳 Rando le long du Sausseron et des moulins de Valmondois",
+    "lieu": "Parking de la gare de Valmondois Av. de la Gare, 95430 Butry-sur-Oise ",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "105",
+    "accompagnateur": "Eric",
+    "lat": "49.091521",
+    "lon": "2.202646",
+    "description": "",
+    "remarques": ""
+  },
+  {
+    "date": "2026-11-22",
+    "titre": "🌿 Une boucle de Maurecourt à Jouy-le-Moutier",
+    "lieu": "📍 Parking du Cimetière 26, rue de Pontoise, 78780 Maurecourt ",
+    "heure": "09:00",
+    "km": "12.5",
+    "denivele": "149",
+    "accompagnateur": "Claire",
+    "lat": "48.999843",
+    "lon": "2.060507",
+    "description": "",
+    "remarques": ""
   }
 ]
