@@ -37,5 +37,31 @@
     "lon": "2.060507",
     "description": "",
     "remarques": ""
+  },
+  {
+    "date": "",
+    "titre": "🌲 Balade en forêt de Marly en longeant le golf de Joyenval",
+    "lieu": "Parking route des Princesses, au carrefour Etoile de Montaigu à 1,2 km du lycée agricole de Saint-Germain-en-Laye",
+    "heure": "09:00",
+    "km": "12.7",
+    "denivele": "150",
+    "accompagnateur": "Gilbert",
+    "lat": "48.88971",
+    "lon": "2.04466",
+    "description": "",
+    "remarques": ""
+  },
+  {
+    "date": "",
+    "titre": "🌲 Boucle au départ de Jambville",
+    "lieu": "Parking du Château, 18, rue des Tilleuls, 78440 Jambville ",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "203",
+    "accompagnateur": "Eric",
+    "lat": "49.046516",
+    "lon": "1.8523",
+    "description": "",
+    "remarques": "🌄 Bâtons conseillés"
   }
 ]
