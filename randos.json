@@ -1,17 +1,5 @@
 [
-  {
-    "date": "2026-11-01",
-    "titre": "🌲 Courdimanche et le bois de l'Hautil",
-    "lieu": "Parking , 10, rue de la Grange Neuve à 95800 Courdimanche  ",
-    "heure": "09:00",
-    "km": "12.5",
-    "denivele": "190",
-    "accompagnateur": "Patrice",
-    "lat": "49.036231",
-    "lon": "2.001137",
-    "description": "",
-    "remarques": ""
-  },
+  
     {
     "date": "2026-11-15",
     "titre": "🌳 Rando le long du Sausseron et des moulins de Valmondois",
@@ -63,5 +51,18 @@
     "lon": "1.8523",
     "description": "",
     "remarques": "🌄 Bâtons conseillés"
+  },
+  {
+    "date": "2026-12-20",
+    "titre": "🌿 Boucle Sagy - Vigny - Longuesse ",
+    "lieu": "📍 Parking situé Grand Place à Sagy 95450",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "160",
+    "accompagnateur": "Patrice",
+    "lat": "49.049516",
+    "lon": "1.952315",
+    "description": "",
+    "remarques": ""
   }
 ]
