@@ -1,5 +1,17 @@
 [
-  
+  {
+    "date": "2026-11-08",
+    "titre": "🌿 Les buttes du Parisis ",
+    "lieu": "Parking La Montagne, situé devant le restaurant Les 3 M, ",
+    "heure": "09:00",
+    "km": "12",
+    "denivele": "183",
+    "accompagnateur": "Patrice",
+    "lat": "48.98308",
+    "lon": "2.20320",
+    "description": "",
+    "remarques": "à l'angle de la route stratégique et de la rue Guy Patin à Cormeilles en Parisis (95240)"
+  },
     {
     "date": "2026-11-15",
     "titre": "🌳 Rando le long du Sausseron et des moulins de Valmondois",
@@ -13,7 +25,7 @@
     "description": "",
     "remarques": ""
   },
-  {
+   {
     "date": "2026-11-22",
     "titre": "🌿 Une boucle de Maurecourt à Jouy-le-Moutier",
     "lieu": "📍 Parking du Cimetière 26, rue de Pontoise, 78780 Maurecourt ",
@@ -26,7 +38,7 @@
     "description": "",
     "remarques": ""
   },
-  {
+   {
     "date": "2026-11-29",
     "titre": "🌲 Balade en forêt de Marly en longeant le golf de Joyenval",
     "lieu": "Parking route des Princesses, au carrefour Etoile de Montaigu à 1,2 km du lycée agricole de Saint-Germain-en-Laye",
@@ -39,7 +51,7 @@
     "description": "",
     "remarques": ""
   },
-  {
+   {
     "date": "2026-12-13",
     "titre": "🌲 Boucle au départ de Jambville",
     "lieu": "Parking du Château, 18, rue des Tilleuls, 78440 Jambville ",
@@ -52,7 +64,7 @@
     "description": "",
     "remarques": "🌄 Bâtons conseillés"
   },
-  {
+   {
     "date": "2026-12-20",
     "titre": "🌿 Boucle Sagy - Vigny - Longuesse ",
     "lieu": "📍 Parking situé Grand Place à Sagy 95450",
